@@ -1,0 +1,21 @@
+@font-face {
+    font-family: annu;
+    src: url(./PinkbluepersonaluseBold-BW2qx.otf);
+}
+@font-face {
+    font-family:nothing ;
+    src: url(./Ndot-55.otf);
+}
+h1 {
+    font-family: annu;
+    font-weight: 100;
+    font-size: 60px;
+    color: red;
+}
+
+h2 {
+    font-family: nothing;
+    font-weight: 100;
+    font-size: 60px;
+    color: red;
+}

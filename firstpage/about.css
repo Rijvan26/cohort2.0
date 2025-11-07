@@ -1,0 +1,119 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background: rgb(245, 244, 244);
+        height: 100vh;
+        width: 100%;   
+       font-family: sans-serif;
+    }
+
+    .container {
+        display: flex;
+        /* height: 100vh; */
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .nameplate {
+        height: 220px; 
+        width: 100%;   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.25rem;
+        color: white;
+        background: #016B61;
+    }
+    .nameplate h1 {
+        font-size: 60px;
+        font-family: none;
+        color: whitesmoke;
+    }
+
+    .aboutme{
+        height: 220px;
+        width: 75%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .aboutme h3 {
+        font-size: 2.5rem;
+    }
+
+    .educa {
+        height: 220px;
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.75rem;
+        background:  #70B2B2;
+    }
+    .educa button {
+        height: 45px;
+        border: none;
+        width: 720px;
+        font-size: 1.3rem;
+    }
+    .skills {
+        height: 220px;
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 1.75rem;
+        background: #c0e2e2 ;
+    }
+    .skills button {
+        height: 45px;
+        border: none;
+        width: 720px;
+        font-size: 1.3rem;
+    }
+
+     .proj {
+        height: 220px;
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 1.75rem;
+        background: #E5E9C5 ;
+    }
+    .proj button {
+        height: 45px;
+        border: none;
+        width: 720px;
+        font-size: 1.3rem;
+    }
+
+    .cnts {
+        height: 220px;
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 1.75rem;
+        background: #bdc1ee ;
+    }
+    .cnts button {
+        height: 45px;
+        border: none;
+        width: 720px;
+        font-size: 1.3rem;
+    }
