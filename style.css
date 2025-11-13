@@ -1,21 +1,86 @@
 @font-face {
-    font-family: annu;
-    src: url(./PinkbluepersonaluseBold-BW2qx.otf);
-}
-@font-face {
-    font-family:nothing ;
-    src: url(./Ndot-55.otf);
-}
-h1 {
-    font-family: annu;
-    font-weight: 100;
-    font-size: 60px;
-    color: red;
+    font-family: iph;
+    src: url(/sf-pro-text_regular.woff2);
 }
 
-h2 {
-    font-family: nothing;
-    font-weight: 100;
-    font-size: 60px;
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+#inav {
+    height: 60px;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: iph;
+
+}
+
+#inav a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 400;
+}
+
+#inav i {
+  font-size: 1.6rem;
+}
+
+#inav2 {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: iph;
+}
+
+#inav2 a {
+  text-decoration: none;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url(/hero__bdntboqignj6_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    /* margin-top: 90px; */
+}
+
+
+#by {
+    padding: 10px 25px;
+    font-size: 2rem;
+    background-color: rgb(48, 86, 202);
+    border-radius: 50px;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 45%;
+    bottom: 8%;
+}
+
+#prc {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 35%;
+    bottom: 3%;
+    font-family: iph;
+    text-shadow: 0 10px 10px rgba(0,0,0,0.3);
 }
